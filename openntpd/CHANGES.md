@@ -10,6 +10,12 @@ The headers are:
 - enhancements
 - features
 
+## 2.0.0 (2025-11-09)
+
+### Changes
+
+- Rename parameter from `openntpd_monitor_mail_from_address` to `openntpd_mail_from_address`
+
 ## 1.6.1 (2025-10-23)
 
 ### Bugs
