@@ -4,7 +4,7 @@ rest_server_state: 'enable'
 
 rest_server_htpasswd: ''
 
-rest_server_monitor_monit_state: False
+rest_server_monit_state: False
 
 rest_server_options:
   - '--append-only'
