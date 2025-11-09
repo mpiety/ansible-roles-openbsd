@@ -10,6 +10,12 @@ The headers are:
 - enhancements
 - features
 
+## 1.0.0 (2025-11-09)
+
+### Changes
+
+- Rename parameter from `ipmi_exporter_monitor_monit_state` to `ipmi_exporter_monit_state`
+
 ## 0.5.0 (2025-10-22)
 
 ### Changes

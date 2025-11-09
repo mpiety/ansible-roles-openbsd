@@ -29,7 +29,7 @@ ipmi_exporter_config: |
         sel:
           - "ipmi-sel"
 
-ipmi_exporter_monitor_monit_state: False
+ipmi_exporter_monit_state: False
 
 ipmi_exporter_version: '1.8.0'
 
