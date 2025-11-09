@@ -40,7 +40,7 @@ unbound_local_data: []
 unbound_local_data_ptr: []
 unbound_local_zone: []
 
-unbound_monitor_monit_state: False
+unbound_monit_state: False
 
 unbound_pf_filters: |
   pass in inet proto { tcp, udp } from { 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16 } to port 53 # dns from internal private addresses

@@ -10,6 +10,12 @@ The headers are:
 - enhancements
 - features
 
+## 2.0.0 (2025-11-09)
+
+### Changes
+
+- Rename parameter from `unbound_monitor_monit_state` to `unbound_monit_state`
+
 ## 1.6.0 (2025-10-22)
 
 ### Changes
