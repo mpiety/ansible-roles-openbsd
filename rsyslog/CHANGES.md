@@ -10,6 +10,12 @@ The headers are:
 - enhancements
 - features
 
+## 2.0.0 (2025-11-09)
+
+### Changes
+
+- Rename parameter from `rsyslog_monitor_monit_state` to `rsyslog_monit_state`
+
 ## 1.6.0 (2025-10-22)
 
 ### Changes

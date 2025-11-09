@@ -134,9 +134,9 @@ vars:
       Examples: [{name: httpd, comment: Apache HTTPD, section: input, config: [{type: imfile, File: /var/www/logs/*access_log, Tag: httpd, Severity: info, Facility: local6}, {type: imfile, File: /var/www/logs/*error_log, Tag: httpd, Severity: info, Facility: local6}]}]
       None    : []
 
-`rsyslog_monitor_monit_state`
+`rsyslog_monit_state`
 
-    Description: Control the 'rsyslog_monitor_monit_state' option.
+    Description: Control the 'rsyslog_monit_state' option.
     Required   : False
     Value      : Predetermined
     Type       : Boolean

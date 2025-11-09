@@ -6,7 +6,7 @@ rsyslog_config_all: []
 rsyslog_config_group: []
 rsyslog_config_host: []
 
-rsyslog_monitor_monit_state: False
+rsyslog_monit_state: False
 
 rsyslog_role: 'client'
 
