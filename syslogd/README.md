@@ -81,9 +81,9 @@ consult the following sections.
       Remove  : 'false' | 'no' | 'remove'
       Inactive: 'quiesce' | 'inactive'
 
-`syslogd_monitor_monit_state`
+`syslogd_monit_state`
 
-    Description: Control the 'syslogd_monitor_monit_state' option.
+    Description: Control the 'syslogd_monit_state' option.
     Required   : False
     Value      : Predetermined
     Type       : Boolean

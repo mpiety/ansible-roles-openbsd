@@ -2,7 +2,7 @@
 
 syslogd_state: 'enable'
 
-syslogd_monitor_monit_state: False
+syslogd_monit_state: False
 
 syslogd_pf_filters: |
   pass in inet proto { tcp, udp } from { 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16 } to port 514 # syslog from internal private addresses

@@ -42,7 +42,7 @@
   notify:
     - validate monit
     - reload monit
-  when: (syslogd_monitor_monit_state == True)
+  when: (syslogd_monit_state == True)
   tags:
     - syslogd
 
@@ -51,7 +51,7 @@
     state: absent
     path: "{{file_dst_syslogd_cfg}}"
   notify: reload monit
-  when: (syslogd_monitor_monit_state == False)
+  when: (syslogd_monit_state == False)
   tags:
     - syslogd
 

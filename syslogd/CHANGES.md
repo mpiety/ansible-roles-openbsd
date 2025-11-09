@@ -10,6 +10,12 @@ The headers are:
 - enhancements
 - features
 
+## 3.0.0 (2025-11-09)
+
+### Changes
+
+- Rename parameter from `syslogd_monitor_monit_state` to `syslogd_monit_state`
+
 ## 2.5.0 (2025-10-22)
 
 ### Changes
