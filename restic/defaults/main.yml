@@ -36,11 +36,12 @@ restic_keep_weekly: 4
 restic_limit_download: 0
 restic_limit_upload: 0
 
-restic_monitor_mail_from_address: "root@{{ansible_domain}}"
-restic_monitor_mail_to_address: ["admin@{{ansible_domain}}"]
-restic_monitor_mail_state: False
-restic_monitor_prom_state: False
-restic_monitor_prom_textfile_collector: '/var/node_exporter/textfile_collector'
+restic_mail_from_address: "root@{{ansible_domain}}"
+restic_mail_to_address: ["admin@{{ansible_domain}}"]
+restic_mail_state: False
+
+restic_prometheus_state: False
+restic_prometheus_textfile_collector: '/var/node_exporter/textfile_collector'
 
 restic_password: ''
 
