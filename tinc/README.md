@@ -250,9 +250,9 @@ consult the following sections.
                           {name: 'dc_3', address: '3.3.3.3', port: '655', subnets: ['10.0.0.3/32', '10.30.0.0/24', '10.30.1.0/24', '10.30.3.0/24'], public_key: ''}]}]
       None    : []
 
-`tinc_monitor_monit_state`
+`tinc_monit_state`
 
-    Description: Control the 'tinc_monitor_monit_state' option.
+    Description: Control the 'tinc_monit_state' option.
     Required   : False
     Value      : Predetermined
     Type       : Boolean

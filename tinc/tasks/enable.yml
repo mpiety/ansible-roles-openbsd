@@ -20,7 +20,7 @@
   notify:
     - validate monit
     - reload monit
-  when: (tinc_monitor_monit_state == True)
+  when: (tinc_monit_state == True)
   tags:
     - tinc
 
@@ -29,7 +29,7 @@
     state: absent
     path: "{{file_dst_tinc_cfg}}"
   notify: reload monit
-  when: (tinc_monitor_monit_state == False)
+  when: (tinc_monit_state == False)
   tags:
     - tinc
 
