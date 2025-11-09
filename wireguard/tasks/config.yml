@@ -75,7 +75,7 @@
     group: "{{file_group_wireguard_cfg}}"
   notify: reload monit
   loop: "{{wireguard_config}}"
-  when: (wireguard_monitor_monit_state == True)
+  when: (wireguard_monit_state == True)
   tags:
     - wireguard
 
@@ -85,6 +85,6 @@
     path: "/etc/monit.d/wireguard-{{item.device}}.cfg"
   notify: reload monit
   loop: "{{wireguard_config}}"
-  when: (wireguard_monitor_monit_state == False)
+  when: (wireguard_monit_state == False)
   tags:
     - wireguard
