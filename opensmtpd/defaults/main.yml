@@ -22,7 +22,7 @@ opensmtpd_match_all:
 opensmtpd_match_group: []
 opensmtpd_match_host: []
 
-opensmtpd_monitor_monit_state: False
+opensmtpd_monit_state: False
 
 opensmtpd_pf_filters: |
   pass in inet proto tcp from { 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16 } to port 25 # smtp from internal private addresses
