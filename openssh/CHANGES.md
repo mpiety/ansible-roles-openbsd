@@ -10,6 +10,12 @@ The headers are:
 - enhancements
 - features
 
+## 2.0.0 (2025-11-09)
+
+### Changes
+
+- Rename parameter from `openssh_monitor_monit_state` to `openssh_monit_state`
+
 ## 1.8.1 (2025-10-23)
 
 ### Enhancements
